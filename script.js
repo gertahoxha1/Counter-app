@@ -1,13 +1,13 @@
-let numri1 = document.querySelector(".numri1");
-let plus10 = document.getElementById("plus10");
-let minus10 = document.getElementById("minus10");
-let dhjete1 = document.getElementById("dhjete1");
-let reset1 = document.getElementById("reset1");
-let mdhjete10 = document.getElementById("mdhjete10");
+let numri1 = document.querySelector(".numri");
+let plus10 = document.getElementById("plus");
+let minus10 = document.getElementById("minus");
+let dhjete1 = document.getElementById("dhjete");
+let reset1 = document.getElementById("reset");
+let mdhjete10 = document.getElementById("mdhjete");
 
 let count = 0;
 
-numri1.textContent= count;
+numri.textContent= count;
 
 function up(){
     count= count + 1;
